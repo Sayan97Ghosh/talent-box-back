@@ -6,6 +6,6 @@ const dataSchema = mongoose.Schema({
     
 });
 
-const dataModel = mongoose.model("data", dataSchema);
+const dataModel = mongoose.model("course", dataSchema);
 
 module.exports = {dataModel};
